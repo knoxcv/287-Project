@@ -1,3 +1,4 @@
+
 //Help on the VGA code from Wilson Guo and Bailey 
 
 module connect_4(CLK_50, VGA_R, VGA_B, VGA_G, VGA_HS, VGA_VS, VGA_SYNC_N, VGA_BLANK_N, VGA_CLK,sw17,sw16,sw15,sw14,sw13,sw12,sw11,sw1,rst,drop1,drop2,empty, player_space);
@@ -191,75 +192,6 @@ end
 	//state machine
 always @(posedge CLK_50)
 begin
-/*
-	case(S)
-		start: 
-		begin
-			empty = 42'b0;
-			player_space = 42'b0;
-			count_C0 = 0;
-			count_C1 = 0;
-			count_C2 = 0;
-			count_C3 = 0;
-			count_C4 = 0;
-			count_C5 = 0;
-			count_C6 = 0;
-			empty[41] = 1;
-			empty[34] = 1;
-			empty[27] = 1;
-			empty[20] = 1;
-			player_space[41] = 0;
-			player_space[34] = 0;
-			player_space[27] = 0;
-			player_space[20] = 0;
-			
-			NS = p1_check;
-		end
-		
-
-
-
-
-		p1_check: //check winner player 1 
-		begin
-			for(j = 0; j < 6; j = j + 1) // player 1 check row
-			begin
-				for(i = 0; i < 4; i = i + 1)
-				begin
-					if((player_space[j*7+i] == 0) & (player_space[j*7+i+1] == 0) & (player_space[j*7+i+2] == 0) & (player_space[j*7+i+3] == 0) & (empty[j*7+i] == 1) & (empty[j*7+1+i] == 1) & (empty[j*7+i+2] == 1) & (empty[j*7+i+3] == 1) )
-					begin
-						NS = p1_win;	
-					end
-				end
-			end
-			
-			for(m = 0; m < 7; m = m + 1)	//player 1 check col
-			begin
-				for(n = 0; n < 3; n = n + 1)
-				begin
-					if((player_space[m+n*7] == 0) & (player_space[m+n*7+7] == 0) & (player_space[m+n*7+14] == 0) & (player_space[m+n*7+21] == 0) & (empty[m+n*7] == 1) & (empty[m+n*7+7] == 1) & (empty[m+n*7+14] == 1) & (empty[m+n*7+21] == 1))
-					begin
-						NS = p1_win;
-					end
-				end
-			end
-			
-			NS = p2_wait;
-			
-		end
-	endcase
-end
-
-
-*/
-
-
-
-
-
-
-
-
 	case(S)
 		start: 
 		begin
@@ -615,15 +547,6 @@ end
 			begin
 				NS = p2_win;
 			end	
-			/*else if((empty[0] == 1)&(empty[1] == 1)&(empty[2] == 1)&(empty[3] == 1)&(empty[4] == 1)&(empty[5] == 1)&(empty[6] == 1)&(empty[7] == 1)&(empty[8] == 1)&(empty[9] == 1)&
-			(empty[10] == 1)&(empty[11] == 1)&(empty[12] == 1)&(empty[13] == 1)&(empty[14] == 1)&(empty[15] == 1)&(empty[16] == 1)&(empty[17] == 1)&(empty[18] == 1)&(empty[19] == 1)&
-			(empty[20] == 1)&(empty[21] == 1)&(empty[22] == 1)&(empty[23] == 1)&(empty[24] == 1)&(empty[25] == 1)&(empty[26] == 1)&(empty[27] == 1)&(empty[28] == 1)&(empty[29] == 1)&
-			(empty[30] == 1)&(empty[31] == 1)&(empty[32] == 1)&(empty[33] == 1)&(empty[34] == 1)&(empty[35] == 1)&(empty[36] == 1)&(empty[37] == 1)&(empty[38] == 1)&(empty[39] == 1)&
-			(empty[40] == 1)&(empty[41] == 1))
-			begin
-				empty[0] = 0;
-			end
-			*/
 			else
 			begin
 				NS = p1_wait;
