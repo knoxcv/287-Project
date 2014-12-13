@@ -1,7 +1,9 @@
 
 Background Information:
 -
-Connect 4 is an interesting connection game that have 2 players with a 6*7 game board. The two players will use two different color's discs to drop from the top one by one. Every block can only hold one disc. Also, when in one row, one column, or one diagonal have 4 same color discs, the player use that color's discs win.
+Connect 4 is an interesting connection game that have 2 players with a 6*7 game board. The two players will use two 
+different color's discs to drop from the top one by one. Every block can only hold one disc.Also, when in one row, 
+one column, or one diagonal have 4 same color discs, the player who use that color's discs win the game.
 
 -
 Description:
