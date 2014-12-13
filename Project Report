@@ -10,3 +10,14 @@ and it will display a 1 if player 1 wins, and a 2 is player 2 wins. To win the g
 color making a row, a column, or a diagnal anywhere on the game board. 
 
 
+Conclusions:
+
+Overall, working on this project helped to give us a better understanding of verilog. Even using Bailey's code for
+the vga we had problems with it when trying to display multiple colors on the monitor. Then we talked with Wilson,
+and he helped us figure out how to get all of our colors to display. Once we got the vga to work, we spent most of 
+our time working on the state machine for the game. For a while we struggled with the count for the board, it would
+drop 2 blocks on each turn, but we put in a else statement and got it to drop 1 block each time. Once we figured 
+out that problem, we worked on how to find the winner for the game, and to do this we used for loops. Though there
+is a glitch in it, and sometimes while playing the game, when you make a move all of the spaces go white. We 
+searched and searched to find out why it does that but we never figured it out.  Overall making connect four was a 
+challenge, but we got it to work.
