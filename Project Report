@@ -1,7 +1,13 @@
 
-Description:
+Background Information:
+-
+Connect 4 is an interesting connection game that have 2 players with a 6*7 game board. The two players will use two different color's discs to drop from the top one by one. Every block can only hold one disc. Also, when in one row, one column, or one diagonal have 4 same color discs, the player use that color's discs win.
 
-For our final project we decided to make a game of connect 4. We used 7 switches, each represented a different 
+-
+Description:
+-
+
+For our final project connect 4. We used 7 switches, each represented a different 
 column on the game board, and we had a button for player 1 to push on their turn, and also on for player 2.
 The game starts on player 1's turn, and alternates to the next player once a move is made. To make a move you
 have to flip the switch for the column you want, and press the button corresponding to the player. Once the game
@@ -9,8 +15,11 @@ is won you will no longer be able to make a move, and to see who won you flip th
 and it will display a 1 if player 1 wins, and a 2 is player 2 wins. To win the game you have to have 4 of the same
 color making a row, a column, or a diagnal anywhere on the game board. 
 
+-video link: https://www.youtube.com/watch?v=MTPrxCXlRno&feature=youtu.be
 
-Conclusions:
+-
+Progress and Conclusions:
+-
 
 Overall, working on this project helped to give us a better understanding of verilog. Even using Bailey's code for
 the vga we had problems with it when trying to display multiple colors on the monitor. Then we talked with Wilson,
@@ -22,3 +31,4 @@ a else statement and got it to drop 1 block each time. Once we figured out that 
 the winner for the game, and to do this we used for loops. Though there is a glitch in it, and sometimes while 
 playing the game, when you make a move all of the spaces go white. We searched and searched to find out why it does 
 that but we never figured it out.  Overall making connect four was a challenge, but we got it to work.
+
