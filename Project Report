@@ -1,0 +1,12 @@
+
+Description:
+
+For our final project we decided to make a game of connect 4. We used 7 switches, each represented a different 
+column on the game board, and we had a button for player 1 to push on their turn, and also on for player 2.
+The game starts on player 1's turn, and alternates to the next player once a move is made. To make a move you
+have to flip the switch for the column you want, and press the button corresponding to the player. Once the game
+is won you will no longer be able to make a move, and to see who won you flip the switch next to the reset button,
+and it will display a 1 if player 1 wins, and a 2 is player 2 wins. To win the game you have to have 4 of the same
+color making a row, a column, or a diagnal anywhere on the game board. 
+
+
