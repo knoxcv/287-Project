@@ -1,4 +1,4 @@
-We will use verilog to make a 2-player game of connect 3, display the game on a monitor, and the DE-2 board will serve as a 
+We will use verilog to make a 2-player game of connect 4, display the game on a monitor, and the DE-2 board will serve as a 
 controller that will alternate to the next player once a play is made.
 
 -
