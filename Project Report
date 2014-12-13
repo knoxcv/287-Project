@@ -15,9 +15,10 @@ Conclusions:
 Overall, working on this project helped to give us a better understanding of verilog. Even using Bailey's code for
 the vga we had problems with it when trying to display multiple colors on the monitor. Then we talked with Wilson,
 and he helped us figure out how to get all of our colors to display. Once we got the vga to work, we spent most of 
-our time working on the state machine for the game. For a while we struggled with the count for the board, it would
-drop 2 blocks on each turn, but we put in a else statement and got it to drop 1 block each time. Once we figured 
-out that problem, we worked on how to find the winner for the game, and to do this we used for loops. Though there
-is a glitch in it, and sometimes while playing the game, when you make a move all of the spaces go white. We 
-searched and searched to find out why it does that but we never figured it out.  Overall making connect four was a 
-challenge, but we got it to work.
+our time working on the state machine for the game. Our state machine had a states to wait for the player to make 
+their move, make the move, check if the was a win, and a state telling it what to do it there was a win, for both 
+players, For a while we struggled with the count for the board, it would drop 2 blocks on each turn, but we put in
+a else statement and got it to drop 1 block each time. Once we figured out that problem, we worked on how to find 
+the winner for the game, and to do this we used for loops. Though there is a glitch in it, and sometimes while 
+playing the game, when you make a move all of the spaces go white. We searched and searched to find out why it does 
+that but we never figured it out.  Overall making connect four was a challenge, but we got it to work.
